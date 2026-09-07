@@ -1,0 +1,1603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BTS × ARMY 14th Anniversary</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+    <!-- ============================================ -->
+    <!-- 1. OPENING OVERLAY - FOREVER ARCHIVE DOOR -->
+    <!-- ============================================ -->
+    <div class="overlay" id="overlay">
+        <!-- Door Background -->
+        <div class="overlay-door-bg">
+            <div class="overlay-blossom"></div>
+            <div class="overlay-blossom"></div>
+            <div class="overlay-blossom"></div>
+            <div class="overlay-blossom"></div>
+            <div class="overlay-blossom"></div>
+            <div class="overlay-blossom"></div>
+        </div>
+
+        <!-- Door Frame -->
+        <div class="overlay-door-frame">
+            <!-- Left Door -->
+            <div class="overlay-door overlay-door-left" id="doorLeft">
+                <div class="overlay-door-inner">
+                    <div class="overlay-door-logo">
+                        <span class="overlay-door-bts">BTS</span>
+                    </div>
+                    <div class="overlay-door-line"></div>
+                    <div class="overlay-door-army">ARMY</div>
+                </div>
+            </div>
+
+            <!-- Right Door -->
+            <div class="overlay-door overlay-door-right" id="doorRight">
+                <div class="overlay-door-inner">
+                    <div class="overlay-door-logo">
+                        <span class="overlay-door-bts">BTS</span>
+                    </div>
+                    <div class="overlay-door-line"></div>
+                    <div class="overlay-door-army">ARMY</div>
+                </div>
+            </div>
+
+            <!-- Door Handles -->
+            <div class="overlay-door-handle-left"></div>
+            <div class="overlay-door-handle-right"></div>
+
+            <!-- Center Line -->
+            <div class="overlay-door-center-line"></div>
+
+            <!-- Door Hinges -->
+            <div class="overlay-hinge hinge-tl"></div>
+            <div class="overlay-hinge hinge-bl"></div>
+            <div class="overlay-hinge hinge-tr"></div>
+            <div class="overlay-hinge hinge-br"></div>
+
+            <!-- Click Hint -->
+            <div class="overlay-door-hint">
+                <span class="overlay-hint-icon">✦</span>
+                <span class="overlay-hint-text">Enter the Archive</span>
+                <span class="overlay-hint-arrow">&darr;</span>
+            </div>
+
+            <!-- Door Label -->
+            <div class="overlay-door-label">
+                <span class="door-label-line"></span>
+             
+                <span class="door-label-line"></span>
+            </div>
+        </div>
+
+        <!-- Content revealed after door opens -->
+        <div class="overlay-content" id="overlayContent">
+            
+            <div class="overlay-invitation-text">
+                <span class="overlay-you-are">Welcome to</span>
+                <h1 class="overlay-event-title">The Forever Archive</h1>
+                <p class="overlay-event-sub">A Living Museum of BTS &amp; ARMY</p>
+            </div>
+
+            <div class="overlay-divider"></div>
+
+            <div class="overlay-quote-wrapper">
+                <span class="overlay-quote-open">&ldquo;</span>
+                <p class="overlay-quote">You and I, together in this moment— An Endless Chapter.</p>
+                <span class="overlay-quote-close">&rdquo;</span>
+            </div>
+
+            <div class="overlay-date-wrapper">
+                <span class="overlay-date-label">Since</span>
+                <span class="overlay-date">June 13, 2013</span>
+            </div>
+
+            <button class="overlay-btn" id="enterBtn">
+                <span class="overlay-btn-text">Enter the Exhibition</span>
+                <span class="overlay-btn-arrow">&rarr;</span>
+            </button>
+
+            <p class="overlay-hint">Click to explore &bull; BTS ARMY forever</p>
+        </div>
+    </div>
+    <!-- ============================================ -->
+    <!-- MAIN CONTENT (hidden until overlay closes) -->
+    <!-- ============================================ -->
+    <div class="main-content" id="mainContent">
+
+    <!-- ========================================== -->
+    <!-- NAVIGATION -->
+    <!-- ========================================== -->
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <div class="nav-logo">
+            <span class="nav-logo-text">BTS <span class="accent">× ARMY</span></span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#timeline">Timeline</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#members">Members</a></li>
+            <li><a href="#music">Music Archive</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#rsvp">RSVP</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <span class="theme-icon" id="themeIcon">🌙</span>
+                <span class="theme-text" id="themeText">Dark</span>
+            </button>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+</nav>
+<!-- ========================================== -->
+<!-- 2. HOME / HERO SECTION - WITH ESSAY -->
+<!-- ========================================== -->
+<section class="section hero" id="home">
+    <!-- Museum Spotlight Effect -->
+    <div class="hero-spotlight">
+        <div class="hero-spotlight-glow"></div>
+    </div>
+
+    <div class="hero-bg-floral">
+        <span></span><span></span><span></span><span></span>
+    </div>
+
+    <div class="container hero-content">
+        <!-- Museum Exhibition Label -->
+        <div class="hero-exhibition-label">
+            <span class="exhibition-line"></span>
+            <span class="exhibition-line"></span>
+        </div>
+
+        <!-- Museum Badge -->
+        <div class="hero-badge-wrapper">
+            <span class="hero-badge-glow"></span>
+            <div class="hero-badge">APOBANGPO EXHIBITION</div>
+        </div>
+
+        <!-- Main Title -->
+        <div class="hero-title-wrapper">
+            <h1 class="hero-title">
+                The <span class="gradient-text">Forever</span> Archive
+            </h1>
+        </div>
+
+        <!-- ESSAY: Welcome to the Forever Archive -->
+        <div class="hero-essay">
+            <div class="hero-essay-line"></div>
+            <div class="hero-essay-line"></div>
+            <div class="hero-essay-line"></div>
+            <div class="hero-essay-text">
+                <p>
+                    In the spring of 2013, seven boys from a small company in Seoul 
+                    stepped onto a stage with nothing but a dream, a song called 
+                    <span class="essay-highlight">"No More Dream,"</span> 
+                    and a future they could not yet see.
+                </p>
+                <p>
+                    They probably didn't know it then, but that small beginning 
+                    would become a story that reached millions of hearts across 
+                    the world.
+                </p>
+                <p>
+                    And I was one of those people who grew up watching that 
+                    story unfold.
+                </p>
+                <p>
+                    I found BTS when I was young, and somehow, along the way, 
+                    their music became a part of my own growing-up years. 
+                    I watched them grow from seven boys chasing a dream into 
+                    artists who stood on some of the biggest stages in the world. 
+                    I listened to their songs through different chapters of my life 
+                    — through happy moments, difficult days, lonely nights, and 
+                    moments when I simply needed something familiar to hold onto.
+                </p>
+                <p>
+                    For me, BTS has never been just about the records they broke 
+                    or the stages they conquered. It's about the memories attached 
+                    to their songs. It's about the seven people who reminded so 
+                    many of us to dream, to keep going, to love ourselves, and to 
+                    believe that our own story is worth telling.
+                </p>
+                <p>
+                    So I created this archive as a small place to preserve 
+                    that journey.
+                </p>
+                <p class="essay-list">
+                    A place for the songs we grew up with.<br />
+                    The moments we will never forget.<br />
+                    The milestones we celebrated together.<br />
+                    And the memories that belong not only to  <span class="essay-highlight">BTS</span> , 
+                    but to <span class="essay-highlight">ARMY</span> too.
+                </p>
+                <p>
+                    If you are visiting this archive as an ARMY, I hope you 
+                    find something here that brings back a memory — a song that 
+                    takes you to a certain year, a performance that made you 
+                    fall in love with them all over again, or simply a moment 
+                    that reminds you why you stayed.
+                </p>
+                <p class="essay-closing">
+                    Welcome, <span class="essay-highlight">ARMY</span>.<br />
+                    <span class="essay-closing-highlight">Let's remember the journey together.</span>
+                </p>
+            </div>
+
+
+            <div class="hero-essay-line"></div>
+        </div>
+
+        <!-- Museum Quote -->
+        <div class="hero-quote-wrapper">
+            <span class="hero-quote-mark">&ldquo;</span>
+            <div class="hero-quote" id="heroQuote">
+          <span class="essay-highlight">Welcome to the Forever Archive</span>
+            </div>
+            <span class="hero-quote-mark">&rdquo;</span>
+        </div>
+
+        <!-- COUNTDOWN TIMER -->
+        <div class="countdown-wrapper">
+            <div class="countdown-label-wrapper">
+                <span class="countdown-label-text">CELEBRATING how long we have been together </span>
+                <span class="countdown-label-sub">Since June 13, 2013</span>
+            </div>
+            <div class="countdown" id="countdown">
+                <div class="countdown-item">
+                    <span class="countdown-number" id="yearsDisplay">14</span>
+                    <span class="countdown-label">Years</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="monthsDisplay">03</span>
+                    <span class="countdown-label">Months</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="daysDisplay">07</span>
+                    <span class="countdown-label">Days</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="hoursDisplay">12</span>
+                    <span class="countdown-label">Hours</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="minutesDisplay">00</span>
+                    <span class="countdown-label">Minutes</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="secondsDisplay">00</span>
+                    <span class="countdown-label">Seconds</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Museum Buttons -->
+        <div class="hero-buttons">
+            <a href="#timeline" class="btn-primary">
+                <span class="btn-icon">✦</span>
+                Explore the Timeline
+                <span class="btn-arrow">→</span>
+            </a>
+            <a href="#music" class="btn-secondary">
+                <span class="btn-icon">♪</span>
+                Visit the Music Archive
+                <span class="btn-arrow">→</span>
+            </a>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="hero-scroll-indicator">
+            <span class="scroll-text">Scroll to explore</span>
+            <span class="scroll-arrow">↓</span>
+        </div>
+    </div>
+</section>
+        <!-- ========================================== -->
+        <!-- 3. LOVE STORY TIMELINE (2023-2027) -->
+        <!-- ========================================== -->
+        <section class="section timeline" id="timeline">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Our Journey</span>
+                    <h2 class="section-title">The Eternal <span class="gradient-text">Timeline</span></h2>
+                    <p class="section-sub">From the first moment to forever</p>
+                </div>
+
+                <div class="timeline-grid" id="timelineGrid">
+                    <!-- Timeline items will be rendered by JavaScript -->
+                </div>
+            </div>
+        </section>
+<!-- ========================================== -->
+<!-- ACHIEVEMENTS & TROPHIES SECTION -->
+<!-- ========================================== -->
+<section class="section achievements" id="achievements">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Legacy</span>
+            <h2 class="section-title">Achievements &amp; <span class="gradient-text">Albums</span></h2>
+            <p class="section-sub">From 2013 to Present — A Legacy of Records</p>
+        </div>
+
+        <!-- Awards & Records -->
+        <div class="achievements-awards">
+            <h3 class="achievements-subtitle">Awards &amp; Records</h3>
+            <div class="awards-grid">
+                <div class="award-card">
+                    <span class="award-icon">◆</span>
+                    <span class="award-title">5 Grammy Nominations</span>
+                    <span class="award-desc">First K-pop act to receive Grammy nominations</span>
+                </div>
+                <div class="award-card highlight">
+                    <span class="award-icon">✦</span>
+                    <span class="award-title">31.96 Billion Streams</span>
+                    <span class="award-desc">Guinness World Record — Most-streamed male group</span>
+                </div>
+                <div class="award-card">
+                    <span class="award-icon">◈</span>
+                    <span class="award-title">2 AMA Artist of the Year Wins</span>
+                    <span class="award-desc">2021 &amp; 2022 — First K-pop act to win</span>
+                </div>
+                <div class="award-card highlight">
+                    <span class="award-icon">■</span>
+                    <span class="award-title">6 Billboard #1 Albums</span>
+                    <span class="award-desc">First K-pop act to achieve this — 2018 to 2022</span>
+                </div>
+                <div class="award-card">
+                    <span class="award-icon">▲</span>
+                    <span class="award-title">170+ Music Show Wins</span>
+                    <span class="award-desc">Over 170 wins across all music shows since 2015</span>
+                </div>
+                <div class="award-card">
+                    <span class="award-icon">●</span>
+                    <span class="award-title">38 Million+ Album Sales</span>
+                    <span class="award-desc">Over 38 million albums sold worldwide</span>
+                </div>
+                <div class="award-card highlight">
+                    <span class="award-icon">♢</span>
+                    <span class="award-title">4.4 Million+ Tour Attendees</span>
+                    <span class="award-desc">Total attendance across all worldwide tours</span>
+                </div>
+                <div class="award-card highlight">
+                    <span class="award-icon">♥</span>
+                    <span class="award-title">14 Years of BTS × ARMY</span>
+                    <span class="award-desc">Forever Bulletproof — Always Together</span>
+                </div>
+            </div>
+        </div>
+        <!-- Albums Discography -->
+        <div class="achievements-albums">
+            <h3 class="achievements-subtitle">The Discography</h3>
+            <div class="albums-grid">
+                <!-- 2026 -->
+                <a href="https://ibighit.com/en/bts/discography" target="_blank" class="album-card highlight">
+                    <div class="album-cover" style="background: linear-gradient(135deg, #2c2c2c, #4a4a4a);">
+                        <span class="album-cover-text">ARIRANG</span>
+                        <span class="album-cover-year">2026</span>
+                    </div>
+                    <span class="album-year">2026</span>
+                    <span class="album-title">ARIRANG</span>
+                    <span class="album-type">4 Million Sales in 3 Days</span>
+                    <span class="album-badge">🏆</span>
+                </a>
+
+                <!-- 2025 -->
+                <a href="https://ibighit.com/en/bts/discography" target="_blank" class="album-card">
+                    <div class="album-cover" style="background: linear-gradient(135deg, #ff6b9d, #ff1493);">
+                        <span class="album-cover-text">PTD ON STAGE</span>
+                        <span class="album-cover-year">2025</span>
+                    </div>
+                    <span class="album-year">2025</span>
+                    <span class="album-title">Permission to Dance on Stage - LIVE</span>
+                    <span class="album-type">Live Album</span>
+                </a>
+
+                <!-- 2023 -->
+                <a href="https://ibighit.com/en/bts/discography" target="_blank" class="album-card">
+                    <div class="album-cover" style="background: linear-gradient(135deg, #4a2a5a, #8a5a9e);">
+                        <span class="album-cover-text">TAKE TWO</span>
+                        <span class="album-cover-year">2023</span>
+                    </div>
+                    <span class="album-year">2023</span>
+                    <span class="album-title">Take Two</span>
+                    <span class="album-type">Digital Single</span>
+                </a>
+
+                <!-- 2022 -->
+                <a href="https://ibighit.com/en/bts/discography" target="_blank" class="album-card">
+                    <div class="album-cover" style="background: linear-gradient(135deg, #1a1a2e, #2d1b3d);">
+                        <span class="album-cover-text">PROOF</span>
+                        <span class="album-cover-year">2022</span>
+                    </div>
+                    <span class="album-year">2022</span>
+                    <span class="album-title">Proof</span>
+                    <span class="album-type">Best-Selling US Album</span>
+                </a>
+
+                <!-- 2021 -->
+                <a href="https://ibighit.com/en/bts/discography" target="_blank" class="album-card highlight">
+                    <div class="album-cover" style="background: linear-gradient(135deg, #FFD700, #FFA500);">
+                        <span class="album-cover-text">BUTTER</span>
+                        <span class="album-cover-year">2021</span>
+                    </div>
+                    <span class="album-year">2021</span>
+                    <span class="album-title">BUTTER</span>
+                    <span class="album-type">10 Weeks at #1 Hot 100</span>
+                    <span class="album-badge">🏆</span>
+                </a>
+
+                <!-- 2020 -->
+                <a href="https://ibighit.com/en/bts/discography" target="_blank" class="album-card">
+                    <div class="album-cover" style="background: linear-gradient(135deg, #2c3e50, #3498db);">
+                        <span class="album-cover-text">BE</span>
+                        <span class="album-cover-year">2020</span>
+                    </div>
+                    <span class="album-year">2020</span>
+                    <span class="album-title">BE</span>
+                    <span class="album-type">Suga's Album Cover Art</span>
+                </a>
+
+                <!-- 2020 Dynamite -->
+                <a href="https://ibighit.com/en/bts/discography" target="_blank" class="album-card highlight">
+                    <div class="album-cover" style="background: linear-gradient(135deg, #000000, #1a1a2e);">
+                        <span class="album-cover-text">DYNAMITE</span>
+                        <span class="album-cover-year">2020</span>
+                    </div>
+                    <span class="album-year">2020</span>
+                    <span class="album-title">DYNAMITE</span>
+                    <span class="album-type">#1 Hot 100 — HISTORY MADE!</span>
+                    <span class="album-badge">🏆</span>
+                </a>
+
+                <!-- 2020 MOTS:7 -->
+                <a href="https://ibighit.com/en/bts/discography" target="_blank" class="album-card">
+                    <div class="album-cover" style="background: linear-gradient(135deg, #8B008B, #4B0082);">
+                        <span class="album-cover-text">MOTS:7</span>
+                        <span class="album-cover-year">2020</span>
+                    </div>
+                    <span class="album-year">2020</span>
+                    <span class="album-title">MAP OF THE SOUL : 7</span>
+                    <span class="album-type">#1 Billboard 200</span>
+                </a>
+
+                <!-- 2019 -->
+                <a href="https://ibighit.com/en/bts/discography" target="_blank" class="album-card">
+                    <div class="album-cover" style="background: linear-gradient(135deg, #ff6b9d, #ff1493);">
+                        <span class="album-cover-text">MOTS:P</span>
+                        <span class="album-cover-year">2019</span>
+                    </div>
+                    <span class="album-year">2019</span>
+                    <span class="album-title">MAP OF THE SOUL : PERSONA</span>
+                    <span class="album-type">First Grammy Performance</span>
+                </a>
+
+                <!-- 2018 Answer -->
+                <a href="https://ibighit.com/en/bts/discography" target="_blank" class="album-card">
+                    <div class="album-cover" style="background: linear-gradient(135deg, #FF1493, #8B008B);">
+                        <span class="album-cover-text">ANSWER</span>
+                        <span class="album-cover-year">2018</span>
+                    </div>
+                    <span class="album-year">2018</span>
+                    <span class="album-title">LOVE YOURSELF 結 'ANSWER'</span>
+                    <span class="album-type">Love Yourself Finale</span>
+                </a>
+
+                <!-- 2018 Tear -->
+                <a href="https://ibighit.com/en/bts/discography" target="_blank" class="album-card highlight">
+                    <div class="album-cover" style="background: linear-gradient(135deg, #2d1b3d, #6a3a7e);">
+                        <span class="album-cover-text">TEAR</span>
+                        <span class="album-cover-year">2018</span>
+                    </div>
+                    <span class="album-year">2018</span>
+                    <span class="album-title">LOVE YOURSELF 轉 'TEAR'</span>
+                    <span class="album-type">FIRST #1 ON BILLBOARD 200</span>
+                    <span class="album-badge">🏆</span>
+                </a>
+
+                <!-- 2017 Her -->
+                <a href="https://ibighit.com/en/bts/discography" target="_blank" class="album-card">
+                    <div class="album-cover" style="background: linear-gradient(135deg, #FF69B4, #FF1493);">
+                        <span class="album-cover-text">HER</span>
+                        <span class="album-cover-year">2017</span>
+                    </div>
+                    <span class="album-year">2017</span>
+                    <span class="album-title">LOVE YOURSELF 承 'HER'</span>
+                    <span class="album-type">First Hot 100 Entry — "DNA"</span>
+                </a>
+
+                <!-- 2017 You Never Walk Alone -->
+                <a href="https://ibighit.com/en/bts/discography" target="_blank" class="album-card">
+                    <div class="album-cover" style="background: linear-gradient(135deg, #2c3e50, #3498db);">
+                        <span class="album-cover-text">YNWA</span>
+                        <span class="album-cover-year">2017</span>
+                    </div>
+                    <span class="album-year">2017</span>
+                    <span class="album-title">YOU NEVER WALK ALONE</span>
+                    <span class="album-type">Spring Day Era</span>
+                </a>
+
+                <!-- 2016 Wings -->
+                <a href="https://ibighit.com/en/bts/discography" target="_blank" class="album-card highlight">
+                    <div class="album-cover" style="background: linear-gradient(135deg, #000000, #8B008B);">
+                        <span class="album-cover-text">WINGS</span>
+                        <span class="album-cover-year">2016</span>
+                    </div>
+                    <span class="album-year">2016</span>
+                    <span class="album-title">WINGS</span>
+                    <span class="album-type">FIRST DAESANG — Album of the Year</span>
+                    <span class="album-badge">🏆</span>
+                </a>
+
+                <!-- 2016 Young Forever -->
+                <a href="https://ibighit.com/en/bts/discography" target="_blank" class="album-card">
+                    <div class="album-cover" style="background: linear-gradient(135deg, #FFD700, #FFA500);">
+                        <span class="album-cover-text">YOUNG FOREVER</span>
+                        <span class="album-cover-year">2016</span>
+                    </div>
+                    <span class="album-year">2016</span>
+                    <span class="album-title">THE MOST BEAUTIFUL MOMENT IN LIFE : YOUNG FOREVER</span>
+                    <span class="album-type">HYYH Compilation</span>
+                </a>
+
+                <!-- 2015 Pt.2 -->
+                <a href="https://ibighit.com/en/bts/discography" target="_blank" class="album-card highlight">
+                    <div class="album-cover" style="background: linear-gradient(135deg, #FF6B9D, #8B008B);">
+                        <span class="album-cover-text">HYYH PT.2</span>
+                        <span class="album-cover-year">2015</span>
+                    </div>
+                    <span class="album-year">2015</span>
+                    <span class="album-title">THE MOST BEAUTIFUL MOMENT IN LIFE PT.2</span>
+                    <span class="album-type">FIRST WIN — "I Need U"</span>
+                    <span class="album-badge">🏆</span>
+                </a>
+
+                <!-- 2015 Pt.1 -->
+                <a href="https://ibighit.com/en/bts/discography" target="_blank" class="album-card">
+                    <div class="album-cover" style="background: linear-gradient(135deg, #FF69B4, #FF1493);">
+                        <span class="album-cover-text">HYYH PT.1</span>
+                        <span class="album-cover-year">2015</span>
+                    </div>
+                    <span class="album-year">2015</span>
+                    <span class="album-title">THE MOST BEAUTIFUL MOMENT IN LIFE PT.1</span>
+                    <span class="album-type">The Beginning of HYYH</span>
+                </a>
+
+                <!-- 2014 Dark & Wild -->
+                <a href="https://ibighit.com/en/bts/discography" target="_blank" class="album-card">
+                    <div class="album-cover" style="background: linear-gradient(135deg, #1a1a2e, #2c3e50);">
+                        <span class="album-cover-text">DARK & WILD</span>
+                        <span class="album-cover-year">2014</span>
+                    </div>
+                    <span class="album-year">2014</span>
+                    <span class="album-title">DARK & WILD</span>
+                    <span class="album-type">First Studio Album</span>
+                </a>
+
+                <!-- 2014 Skool Luv Affair -->
+                <a href="https://ibighit.com/en/bts/discography" target="_blank" class="album-card">
+                    <div class="album-cover" style="background: linear-gradient(135deg, #FF6B9D, #FF1493);">
+                        <span class="album-cover-text">SKOOL LUV</span>
+                        <span class="album-cover-year">2014</span>
+                    </div>
+                    <span class="album-year">2014</span>
+                    <span class="album-title">SKOOL LUV AFFAIR</span>
+                    <span class="album-type">"Boy In Luv" Era</span>
+                </a>
+
+                <!-- 2013 Debut -->
+                <a href="https://ibighit.com/en/bts/discography" target="_blank" class="album-card highlight">
+                    <div class="album-cover" style="background: linear-gradient(135deg, #000000, #2c3e50);">
+                        <span class="album-cover-text">2 COOL 4 SKOOL</span>
+                        <span class="album-cover-year">2013</span>
+                    </div>
+                    <span class="album-year">2013</span>
+                    <span class="album-title">2 COOL 4 SKOOL</span>
+                    <span class="album-type">DEBUT — "No More Dream"</span>
+                    <span class="album-badge">💜</span>
+                </a>
+
+                <!-- 2027 Forever -->
+                <a href="#home" class="album-card highlight">
+                    <div class="album-cover" style="background: linear-gradient(135deg, #8a5a9e, #6a3a7e);">
+                        <span class="album-cover-text">BTS × ARMY</span>
+                        <span class="album-cover-year">2027</span>
+                    </div>
+                    <span class="album-year">2027</span>
+                    <span class="album-title">14 Years of Legacy</span>
+                    <span class="album-type">FOREVER BULLETPROOF</span>
+                    <span class="album-badge">💜</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Milestone Songs -->
+        <div class="achievements-songs">
+            <h3 class="achievements-subtitle">🎶 Milestone Songs</h3>
+            <div class="songs-grid">
+                <div class="song-card">
+                    <span class="song-year">2013</span>
+                    <span class="song-title">No More Dream</span>
+                    <span class="song-achievement">Debut Song</span>
+                </div>
+                <div class="song-card">
+                    <span class="song-year">2014</span>
+                    <span class="song-title">Boy In Luv</span>
+                    <span class="song-achievement">First #1 Candidate</span>
+                </div>
+                <div class="song-card highlight">
+                    <span class="song-year">2015</span>
+                    <span class="song-title">I NEED U</span>
+                    <span class="song-achievement">First Music Show Win</span>
+                    <span class="song-badge">🏆</span>
+                </div>
+                <div class="song-card">
+                    <span class="song-year">2016</span>
+                    <span class="song-title">Blood Sweat & Tears</span>
+                    <span class="song-achievement">First Daesang Era</span>
+                </div>
+                <div class="song-card">
+                    <span class="song-year">2017</span>
+                    <span class="song-title">DNA</span>
+                    <span class="song-achievement">First Hot 100 Entry (#85)</span>
+                </div>
+                <div class="song-card">
+                    <span class="song-year">2018</span>
+                    <span class="song-title">Fake Love</span>
+                    <span class="song-achievement">First #1 Album Era</span>
+                </div>
+                <div class="song-card">
+                    <span class="song-year">2019</span>
+                    <span class="song-title">Boy With Luv</span>
+                    <span class="song-achievement">First Grammy Performance</span>
+                </div>
+                <div class="song-card highlight">
+                    <span class="song-year">2020</span>
+                    <span class="song-title">Dynamite</span>
+                    <span class="song-achievement">#1 Hot 100 — HISTORY!</span>
+                    <span class="song-badge">🏆</span>
+                </div>
+                <div class="song-card highlight">
+                    <span class="song-year">2021</span>
+                    <span class="song-title">Butter</span>
+                    <span class="song-achievement">10 Weeks at #1 Hot 100</span>
+                    <span class="song-badge">🏆</span>
+                </div>
+                <div class="song-card">
+                    <span class="song-year">2022</span>
+                    <span class="song-title">Yet To Come</span>
+                    <span class="song-achievement">A Promise to ARMY</span>
+                </div>
+                <div class="song-card">
+                    <span class="song-year">2023</span>
+                    <span class="song-title">Take Two</span>
+                    <span class="song-achievement">10th Anniversary Gift</span>
+                </div>
+                <div class="song-card">
+                    <span class="song-year">2026</span>
+                    <span class="song-title">SWIM</span>
+                    <span class="song-achievement">#1 Hot 100 — 12 Wins</span>
+                </div>
+            </div>
+        </div>
+<!-- ========================================== -->
+<!-- MEET THE ARTISTS - INTERACTIVE MEMBER PROFILES -->
+<!-- ========================================== -->
+<section class="section members" id="members">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Meet the Artists</span>
+            <h2 class="section-title">The <span class="gradient-text">Seven</span> Stars</h2>
+            <p class="section-sub">Click on any member to explore their solo journey</p>
+        </div>
+
+        <div class="members-grid" id="membersGrid">
+            <!-- RM -->
+            <div class="member-card" data-member="rm">
+                <div class="member-image" style="background: linear-gradient(135deg, #2c3e50, #1a1a2e);">
+                    <span class="member-emoji">🐨</span>
+                    <span class="member-name-overlay">RM</span>
+                    <span class="member-click-hint">Click to explore →</span>
+                </div>
+                <div class="member-info">
+                    <h4 class="member-name">RM</h4>
+                    <span class="member-role">Leader · Main Rapper</span>
+                    <div class="member-tags">
+                        <span class="member-tag">Born 1994</span>
+                        <span class="member-tag">Seoul</span>
+                        <span class="member-tag">♍</span>
+                    </div>
+                    <span class="member-click-icon">◆</span>
+                </div>
+            </div>
+
+            <!-- Jin -->
+            <div class="member-card" data-member="jin">
+                <div class="member-image" style="background: linear-gradient(135deg, #FF6B9D, #E74C7E);">
+                    <span class="member-emoji">🐹</span>
+                    <span class="member-name-overlay">Jin</span>
+                    <span class="member-click-hint">Click to explore →</span>
+                </div>
+                <div class="member-info">
+                    <h4 class="member-name">Jin</h4>
+                    <span class="member-role">Vocalist · Visual</span>
+                    <div class="member-tags">
+                        <span class="member-tag">Born 1992</span>
+                        <span class="member-tag">Gwacheon</span>
+                        <span class="member-tag">♐</span>
+                    </div>
+                    <span class="member-click-icon">◆</span>
+                </div>
+            </div>
+
+            <!-- SUGA -->
+            <div class="member-card" data-member="suga">
+                <div class="member-image" style="background: linear-gradient(135deg, #2d1b3d, #8a5a9e);">
+                    <span class="member-emoji">🐱</span>
+                    <span class="member-name-overlay">SUGA</span>
+                    <span class="member-click-hint">Click to explore →</span>
+                </div>
+                <div class="member-info">
+                    <h4 class="member-name">SUGA</h4>
+                    <span class="member-role">Lead Rapper · Producer</span>
+                    <div class="member-tags">
+                        <span class="member-tag">Born 1993</span>
+                        <span class="member-tag">Daegu</span>
+                        <span class="member-tag">♓</span>
+                    </div>
+                    <span class="member-click-icon">◆</span>
+                </div>
+            </div>
+
+            <!-- j-hope -->
+            <div class="member-card" data-member="jhope">
+                <div class="member-image" style="background: linear-gradient(135deg, #F39C12, #E67E22);">
+                    <span class="member-emoji">🐿️</span>
+                    <span class="member-name-overlay">j-hope</span>
+                    <span class="member-click-hint">Click to explore →</span>
+                </div>
+                <div class="member-info">
+                    <h4 class="member-name">j-hope</h4>
+                    <span class="member-role">Main Dancer · Rapper</span>
+                    <div class="member-tags">
+                        <span class="member-tag">Born 1994</span>
+                        <span class="member-tag">Gwangju</span>
+                        <span class="member-tag">♒</span>
+                    </div>
+                    <span class="member-click-icon">◆</span>
+                </div>
+            </div>
+
+            <!-- Jimin -->
+            <div class="member-card" data-member="jimin">
+                <div class="member-image" style="background: linear-gradient(135deg, #FF6B9D, #FF1493);">
+                    <span class="member-emoji">🐥</span>
+                    <span class="member-name-overlay">Jimin</span>
+                    <span class="member-click-hint">Click to explore →</span>
+                </div>
+                <div class="member-info">
+                    <h4 class="member-name">Jimin</h4>
+                    <span class="member-role">Vocalist · Dancer</span>
+                    <div class="member-tags">
+                        <span class="member-tag">Born 1995</span>
+                        <span class="member-tag">Busan</span>
+                        <span class="member-tag">♎</span>
+                    </div>
+                    <span class="member-click-icon">◆</span>
+                </div>
+            </div>
+
+            <!-- V -->
+            <div class="member-card" data-member="v">
+                <div class="member-image" style="background: linear-gradient(135deg, #2ECC71, #27AE60);">
+                    <span class="member-emoji">🐯</span>
+                    <span class="member-name-overlay">V</span>
+                    <span class="member-click-hint">Click to explore →</span>
+                </div>
+                <div class="member-info">
+                    <h4 class="member-name">V</h4>
+                    <span class="member-role">Vocalist · Visual</span>
+                    <div class="member-tags">
+                        <span class="member-tag">Born 1995</span>
+                        <span class="member-tag">Daegu</span>
+                        <span class="member-tag">♑</span>
+                    </div>
+                    <span class="member-click-icon">◆</span>
+                </div>
+            </div>
+
+            <!-- Jungkook -->
+            <div class="member-card" data-member="jungkook">
+                <div class="member-image" style="background: linear-gradient(135deg, #3498DB, #2980B9);">
+                    <span class="member-emoji">🐰</span>
+                    <span class="member-name-overlay">Jungkook</span>
+                    <span class="member-click-hint">Click to explore →</span>
+                </div>
+                <div class="member-info">
+                    <h4 class="member-name">Jungkook</h4>
+                    <span class="member-role">Main Vocalist · Maknae</span>
+                    <div class="member-tags">
+                        <span class="member-tag">Born 1997</span>
+                        <span class="member-tag">Busan</span>
+                        <span class="member-tag">♍</span>
+                    </div>
+                    <span class="member-click-icon">◆</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Museum Label -->
+        <div class="members-museum-note">
+            <span class="note-icon">✦</span>
+            <span class="note-text">Permanent Exhibition — BTS × ARMY</span>
+            <span class="note-icon">✦</span>
+        </div>
+    </div>
+</section>
+
+
+<!-- ========================================== -->
+<!-- MEMBER DETAIL PANEL (Hidden by default) -->
+<!-- ========================================== -->
+<div class="member-panel-overlay" id="memberPanelOverlay">
+    <div class="member-panel" id="memberPanel">
+        <button class="member-panel-close" id="memberPanelClose">✕</button>
+        
+        <div class="member-panel-content" id="memberPanelContent">
+            <!-- Content loaded by JavaScript -->
+        </div>
+    </div>
+</div>
+    <!-- ========================================== -->
+    <!-- 4. BTS PLAYLIST - WITH FEATURES 2, 5, 6 -->
+    <!-- ========================================== -->
+    <section class="section playlist" id="playlist">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Music</span>
+                <h2 class="section-title">BTS <span class="gradient-text">Playlist</span></h2>
+                <p class="section-sub">The soundtrack of our love story</p>
+            </div>
+
+            <!-- FEATURE 2: BTS Lyric Carousel (Inside Playlist) -->
+            <div class="playlist-lyric-carousel">
+                <div class="playlist-lyric-display">
+                    <span class="playlist-lyric-icon">🎵</span>
+                    <span class="playlist-lyric-quote">&ldquo;</span>
+                    <div class="playlist-lyric-text" id="playlistLyric">
+                        You are the cause of my euphoria.
+                    </div>
+                    <span class="playlist-lyric-quote">&rdquo;</span>
+                </div>
+                <div class="playlist-lyric-controls">
+                    <span class="playlist-lyric-dot active" data-index="0"></span>
+                    <span class="playlist-lyric-dot" data-index="1"></span>
+                    <span class="playlist-lyric-dot" data-index="2"></span>
+                    <span class="playlist-lyric-dot" data-index="3"></span>
+                    <span class="playlist-lyric-dot" data-index="4"></span>
+                    <span class="playlist-lyric-dot" data-index="5"></span>
+                    <span class="playlist-lyric-dot" data-index="6"></span>
+                    <span class="playlist-lyric-dot" data-index="7"></span>
+                </div>
+                <div class="playlist-lyric-info">
+                    <span class="playlist-lyric-song" id="playlistLyricSong">Euphoria</span>
+                    <span class="playlist-lyric-artist">BTS</span>
+                </div>
+            </div>
+
+            <!-- FEATURE 6: ARMY Lightstick (Inside Playlist) -->
+            <div class="playlist-lightstick">
+                <div class="playlist-lightstick-display">
+                    <div class="playlist-lightstick-mini" id="playlistLightstick">
+                        <div class="playlist-lightstick-body">
+                            <div class="playlist-lightstick-glow" id="playlistLightstickGlow"></div>
+                            <div class="playlist-lightstick-core" id="playlistLightstickCore"></div>
+                        </div>
+                        <span class="playlist-lightstick-label">ARMY BOMB</span>
+                    </div>
+                    <div class="playlist-lightstick-controls">
+                        <div class="playlist-color-options">
+                            <button class="playlist-color-btn active" data-color="purple" style="background: #8a5a9e;"></button>
+                            <button class="playlist-color-btn" data-color="pink" style="background: #FF6B9D;"></button>
+                            <button class="playlist-color-btn" data-color="blue" style="background: #3498DB;"></button>
+                            <button class="playlist-color-btn" data-color="green" style="background: #2ECC71;"></button>
+                            <button class="playlist-color-btn" data-color="orange" style="background: #F39C12;"></button>
+                            <button class="playlist-color-btn" data-color="rainbow" style="background: linear-gradient(135deg, #FF6B9D, #8a5a9e, #3498DB, #2ECC71, #F39C12);"></button>
+                        </div>
+                        <div class="playlist-effect-controls">
+                            <button class="playlist-effect-btn active" data-effect="pulse">Pulse</button>
+                            <button class="playlist-effect-btn" data-effect="wave">Wave</button>
+                            <button class="playlist-effect-btn" data-effect="fade">Fade</button>
+                            <button class="playlist-effect-btn" data-effect="flash">Flash</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="playlist-lightstick-status">
+                    <span class="playlist-status-text">💜 ARMY BOMB ACTIVE</span>
+                    <span class="playlist-color-name" id="playlistColorName">Purple</span>
+                </div>
+            </div>
+
+            <!-- FEATURE 5: Music Player (Inside Playlist) -->
+            <div class="playlist-music-player">
+                <div class="playlist-music-album">
+                    <div class="playlist-music-cover" id="playlistAlbumCover">
+                        <span class="playlist-album-text">BTS</span>
+                    </div>
+                    <div class="playlist-music-glow"></div>
+                </div>
+
+               <div class="playlist-music-controls">
+                    <div class="playlist-music-now">
+                        <span class="playlist-music-label">Now Playing</span>
+                        <span class="playlist-music-song" id="playlistCurrentSong">Euphoria</span>
+                        <span class="playlist-music-artist">BTS (Jungkook)</span>
+                    </div>
+
+                    <div class="playlist-music-progress">
+                        <div class="playlist-music-bar">
+                            <div class="playlist-music-fill" id="playlistProgressFill"></div>
+                        </div>
+                        <div class="playlist-music-time">
+                            <span class="playlist-time-current" id="playlistTimeCurrent">0:00</span>
+                            <span class="playlist-time-total" id="playlistTimeTotal">3:45</span>
+                        </div>
+                    </div>
+
+                    <div class="playlist-music-buttons">
+                        <button class="playlist-music-btn" id="playlistPrevBtn" aria-label="Previous">
+                            <span>⏮</span>
+                        </button>
+                        <button class="playlist-music-btn playlist-play-btn" id="playlistPlayBtn" aria-label="Play/Pause">
+                            <span id="playlistPlayIcon">▶</span>
+                        </button>
+                        <button class="playlist-music-btn" id="playlistNextBtn" aria-label="Next">
+                            <span>⏭</span>
+                        </button>
+                        <button class="playlist-music-btn" id="playlistShuffleBtn" aria-label="Shuffle">
+                            <span>🔀</span>
+                        </button>
+                        <button class="playlist-music-btn" id="playlistRepeatBtn" aria-label="Repeat">
+                            <span>🔁</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Original Playlist Grid -->
+            <div class="playlist-grid" id="playlistGrid">
+                <!-- Playlist items will be rendered by JavaScript -->
+            </div>
+
+            <!-- External Link Integration -->
+            <div class="playlist-external">
+                <p>Listen on your favorite platform:</p>
+                <div class="playlist-external-links">
+                    <a href="#" target="_blank" class="external-link spotify">
+                        <i class="fab fa-spotify"></i> Spotify
+                    </a>
+                    <a href="#" target="_blank" class="external-link apple">
+                        <i class="fab fa-apple"></i> Apple Music
+                    </a>
+                    <a href="#" target="_blank" class="external-link youtube">
+                        <i class="fab fa-youtube"></i> YouTube
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- Complete Song List by Album -->
+        <div class="achievements-songs-full">
+            <h3 class="achievements-subtitle">The Anthology</h3>
+            <p class="achievements-sub-desc">Every track that tells the story of "Apobangpo"</p>
+
+            <div class="songlist-grid" id="songlistGrid">
+                <!-- 1. 2 COOL 4 SKOOL — 2013 -->
+                <div class="songlist-card">
+                    <div class="songlist-header">
+                        <span class="songlist-year">2013</span>
+                        <span class="songlist-album">2 COOL 4 SKOOL</span>
+                    </div>
+                    <ul class="songlist-tracks">
+                        <li>Intro: 2 COOL 4 SKOOL</li>
+                        <li>We Are Bulletproof Pt.2</li>
+                        <li>Skit: Circle Room Talk</li>
+                        <li>No More Dream</li>
+                        <li>Interlude</li>
+                        <li>Like</li>
+                        <li>Outro: Circle Room Cypher</li>
+                    </ul>
+                </div>
+
+                <!-- 2. O!RUL8,2? — 2013 -->
+                <div class="songlist-card">
+                    <div class="songlist-header">
+                        <span class="songlist-year">2013</span>
+                        <span class="songlist-album">O!RUL8,2?</span>
+                    </div>
+                    <ul class="songlist-tracks">
+                        <li>Intro: O!RUL8,2?</li>
+                        <li>N.O</li>
+                        <li>We On</li>
+                        <li>Skit: R U Happy Now?</li>
+                        <li>If I Ruled the World</li>
+                        <li>Coffee</li>
+                        <li>BTS Cypher Pt.1</li>
+                        <li>Attack on Bangtan</li>
+                        <li>Paldogangsan</li>
+                        <li>Outro: Luv in Skool</li>
+                    </ul>
+                </div>
+
+                <!-- 3. Skool Luv Affair — 2014 -->
+                <div class="songlist-card">
+                    <div class="songlist-header">
+                        <span class="songlist-year">2014</span>
+                        <span class="songlist-album">Skool Luv Affair</span>
+                    </div>
+                    <ul class="songlist-tracks">
+                        <li>Intro: Skool Luv Affair</li>
+                        <li>Boy In Luv</li>
+                        <li>Skit: Soulmate</li>
+                        <li>Where You From</li>
+                        <li>Just One Day</li>
+                        <li>Tomorrow</li>
+                        <li>BTS Cypher Pt.2: Triptych</li>
+                        <li>Spine Breaker</li>
+                        <li>Jump</li>
+                        <li>Outro: Propose</li>
+                        <li>Miss Right</li>
+                    </ul>
+                </div>
+
+                <!-- 4. Dark & Wild — 2014 -->
+                <div class="songlist-card">
+                    <div class="songlist-header">
+                        <span class="songlist-year">2014</span>
+                        <span class="songlist-album">Dark & Wild</span>
+                    </div>
+                    <ul class="songlist-tracks">
+                        <li>Intro: What Am I to You?</li>
+                        <li>Danger</li>
+                        <li>War of Hormone</li>
+                        <li>Hip Hop Phile</li>
+                        <li>Let Me Know</li>
+                        <li>Rain</li>
+                        <li>BTS Cypher Pt.3: Killer</li>
+                        <li>Interlude: What Are You Doing Now?</li>
+                        <li>Could You Turn Off Your Cell Phone</li>
+                        <li>Embarrassed</li>
+                        <li>24/7=Heaven</li>
+                        <li>Look Here</li>
+                        <li>2nd Grade</li>
+                        <li>Outro: Does That Make Sense?</li>
+                    </ul>
+                </div>
+
+                <!-- 5. The Most Beautiful Moment in Life, Pt.1 — 2015 -->
+                <div class="songlist-card highlight">
+                    <div class="songlist-header">
+                        <span class="songlist-year">2015</span>
+                        <span class="songlist-album">The Most Beautiful Moment in Life, Pt.1</span>
+                        <span class="songlist-badge">🏆</span>
+                    </div>
+                    <ul class="songlist-tracks">
+                        <li>Intro: The Most Beautiful Moment in Life</li>
+                        <li><strong>I NEED U</strong> — FIRST WIN!</li>
+                        <li>Hold Me Tight</li>
+                        <li>Dope</li>
+                        <li>Boyz with Fun</li>
+                        <li>Converse High</li>
+                        <li>Moving On</li>
+                        <li>Outro: Love Is Not Over</li>
+                    </ul>
+                </div>
+
+                <!-- 6. The Most Beautiful Moment in Life, Pt.2 — 2015 -->
+                <div class="songlist-card highlight">
+                    <div class="songlist-header">
+                        <span class="songlist-year">2015</span>
+                        <span class="songlist-album">The Most Beautiful Moment in Life, Pt.2</span>
+                        <span class="songlist-badge">🏆</span>
+                    </div>
+                    <ul class="songlist-tracks">
+                        <li>Intro: Never Mind</li>
+                        <li><strong>RUN</strong></li>
+                        <li>Butterfly</li>
+                        <li>Whalien 52</li>
+                        <li>Ma City</li>
+                        <li>Silver Spoon</li>
+                        <li>Autumn Leaves</li>
+                        <li>Outro: House of Cards</li>
+                    </ul>
+                </div>
+
+                <!-- 7. The Most Beautiful Moment in Life: Young Forever — 2016 -->
+                <div class="songlist-card highlight">
+                    <div class="songlist-header">
+                        <span class="songlist-year">2016</span>
+                        <span class="songlist-album">The Most Beautiful Moment in Life: Young Forever</span>
+                        <span class="songlist-badge">🏆</span>
+                    </div>
+                    <ul class="songlist-tracks">
+                        <li>Intro: The Most Beautiful Moment in Life</li>
+                        <li><strong>Fire</strong></li>
+                        <li><strong>Save ME</strong></li>
+                        <li>Epilogue: Young Forever</li>
+                        <li>House of Cards (Full Length)</li>
+                        <li>Love Is Not Over (Full Length)</li>
+                    </ul>
+                </div>
+
+                <!-- 8. Wings — 2016 -->
+                <div class="songlist-card highlight">
+                    <div class="songlist-header">
+                        <span class="songlist-year">2016</span>
+                        <span class="songlist-album">WINGS</span>
+                        <span class="songlist-badge">🏆</span>
+                    </div>
+                    <ul class="songlist-tracks">
+                        <li>Intro: Boy Meets Evil</li>
+                        <li><strong>Blood Sweat & Tears</strong></li>
+                        <li>Begin</li>
+                        <li>Lie</li>
+                        <li>Stigma</li>
+                        <li>First Love</li>
+                        <li>Reflection</li>
+                        <li>MAMA</li>
+                        <li>Awake</li>
+                        <li>Lost</li>
+                        <li>BTS Cypher 4</li>
+                        <li>Am I Wrong</li>
+                        <li>21st Century Girl</li>
+                        <li>2! 3!</li>
+                        <li>Interlude: Wings</li>
+                    </ul>
+                </div>
+
+                <!-- 9. You Never Walk Alone — 2017 -->
+                <div class="songlist-card highlight">
+                    <div class="songlist-header">
+                        <span class="songlist-year">2017</span>
+                        <span class="songlist-album">You Never Walk Alone</span>
+                        <span class="songlist-badge">🏆</span>
+                    </div>
+                    <ul class="songlist-tracks">
+                        <li><strong>Spring Day</strong></li>
+                        <li><strong>Not Today</strong></li>
+                        <li>A Supplementary Story: You Never Walk Alone</li>
+                    </ul>
+                </div>
+
+                <!-- 10. Love Yourself 承 'Her' — 2017 -->
+                <div class="songlist-card">
+                    <div class="songlist-header">
+                        <span class="songlist-year">2017</span>
+                        <span class="songlist-album">Love Yourself 承 'Her'</span>
+                    </div>
+                    <ul class="songlist-tracks">
+                        <li>Intro: Serendipity</li>
+                        <li><strong>DNA</strong></li>
+                        <li>Best of Me</li>
+                        <li>dimple</li>
+                        <li>Pied Piper</li>
+                        <li>MIC Drop</li>
+                        <li>Go Go</li>
+                        <li>Outro: Her</li>
+                    </ul>
+                </div>
+
+                <!-- 11. Love Yourself 轉 'Tear' — 2018 -->
+                <div class="songlist-card highlight">
+                    <div class="songlist-header">
+                        <span class="songlist-year">2018</span>
+                        <span class="songlist-album">Love Yourself 轉 'Tear'</span>
+                        <span class="songlist-badge">🏆</span>
+                    </div>
+                    <ul class="songlist-tracks">
+                        <li>Intro: Singularity</li>
+                        <li><strong>FAKE LOVE</strong></li>
+                        <li>The Truth Untold</li>
+                        <li>134340</li>
+                        <li>Paradise</li>
+                        <li>Love Maze</li>
+                        <li><strong>Magic Shop</strong></li>
+                        <li>Airplane Pt.2</li>
+                        <li>Anpanman</li>
+                        <li>So What</li>
+                        <li>Outro: Tear</li>
+                    </ul>
+                </div>
+
+                <!-- 12. Love Yourself 結 'Answer' — 2018 -->
+                <div class="songlist-card highlight">
+                    <div class="songlist-header">
+                        <span class="songlist-year">2018</span>
+                        <span class="songlist-album">Love Yourself 結 'Answer'</span>
+                        <span class="songlist-badge">🏆</span>
+                    </div>
+                    <ul class="songlist-tracks">
+                        <li><strong>Euphoria</strong></li>
+                        <li><strong>IDOL</strong></li>
+                        <li><strong>Answer: Love Myself</strong></li>
+                        <li>Trivia 起: Just Dance</li>
+                        <li>Trivia 承: Love</li>
+                        <li>Trivia 轉: Seesaw</li>
+                        <li><strong>Epiphany</strong></li>
+                        <li>I'm Fine</li>
+                    </ul>
+                </div>
+
+                <!-- 13. Map of the Soul: Persona — 2019 -->
+                <div class="songlist-card">
+                    <div class="songlist-header">
+                        <span class="songlist-year">2019</span>
+                        <span class="songlist-album">Map of the Soul: Persona</span>
+                    </div>
+                    <ul class="songlist-tracks">
+                        <li>Intro: Persona</li>
+                        <li><strong>Boy With Luv</strong> — feat. Halsey</li>
+                        <li><strong>Mikrokosmos</strong></li>
+                        <li>Make It Right</li>
+                        <li>HOME</li>
+                        <li>Jamais Vu</li>
+                        <li>Dionysus</li>
+                    </ul>
+                </div>
+
+                <!-- 14. Map of the Soul: 7 — 2020 -->
+                <div class="songlist-card highlight">
+                    <div class="songlist-header">
+                        <span class="songlist-year">2020</span>
+                        <span class="songlist-album">Map of the Soul: 7</span>
+                        <span class="songlist-badge">🏆</span>
+                    </div>
+                    <ul class="songlist-tracks">
+                        <li>Interlude: Shadow</li>
+                        <li><strong>Black Swan</strong></li>
+                        <li>Filter</li>
+                        <li>My Time</li>
+                        <li>Louder than bombs</li>
+                        <li><strong>ON</strong></li>
+                        <li>UGH!</li>
+                        <li>00:00 (Zero O'Clock)</li>
+                        <li>Inner Child</li>
+                        <li>Friends</li>
+                        <li>Moon</li>
+                        <li>Respect</li>
+                        <li><strong>We are Bulletproof: the Eternal</strong></li>
+                        <li>Outro: Ego</li>
+                    </ul>
+                </div>
+
+                <!-- 15. BE — 2020 -->
+                <div class="songlist-card highlight">
+                    <div class="songlist-header">
+                        <span class="songlist-year">2020</span>
+                        <span class="songlist-album">BE</span>
+                        <span class="songlist-badge">🏆</span>
+                    </div>
+                    <ul class="songlist-tracks">
+                        <li><strong>Life Goes On</strong></li>
+                        <li>Fly To My Room</li>
+                        <li>Blue & Grey</li>
+                        <li>Skit</li>
+                        <li>Telepathy</li>
+                        <li>Dis-ease</li>
+                        <li>Stay</li>
+                        <li><strong>Dynamite</strong></li>
+                    </ul>
+                </div>
+
+                <!-- 16. Proof — 2022 -->
+                <div class="songlist-card">
+                    <div class="songlist-header">
+                        <span class="songlist-year">2022</span>
+                        <span class="songlist-album">Proof (Anthology)</span>
+                    </div>
+                    <ul class="songlist-tracks">
+                        <li><strong>Yet To Come</strong></li>
+                        <li><strong>Run BTS</strong></li>
+                        <li><strong>For Youth</strong></li>
+                        <li>Born Singer</li>
+                    </ul>
+                </div>
+
+                <!-- 17. ARIRANG — 2026 -->
+                <div class="songlist-card highlight">
+                    <div class="songlist-header">
+                        <span class="songlist-year">2026</span>
+                        <span class="songlist-album">ARIRANG</span>
+                        <span class="songlist-badge">🏆</span>
+                    </div>
+                    <ul class="songlist-tracks">
+                        <li>Body to Body</li>
+                        <li>Hooligan</li>
+                        <li>Aliens</li>
+                        <li>FYA</li>
+                        <li>2.0</li>
+                        <li><strong>No. 29</strong></li>
+                        <li><strong>SWIM</strong></li>
+                        <li>Merry Go Round</li>
+                        <li>NORMAL</li>
+                        <li>Like Animals</li>
+                        <li><strong>they don't know 'bout us</strong></li>
+                        <li>One More Night</li>
+                        <li>Please</li>
+                        <li>Into the Sun</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- ========================================== -->
+        <!-- 6. MEMORY GALLERY -->
+        <!-- ========================================== -->
+        <section class="section gallery" id="gallery">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Memories</span>
+                    <h2 class="section-title">Memory <span class="gradient-text">Gallery</span></h2>
+                    <p class="section-sub">A collection of purple moments</p>
+                </div>
+
+                <div class="gallery-grid" id="galleryGrid">
+                    <!-- Gallery items will be rendered by JavaScript -->
+                </div>
+
+                <!-- BTS Quote -->
+                <div class="gallery-quote">
+                    <span class="gallery-quote-icon">&ldquo;</span>
+                    <p id="galleryQuote">"You are the cause of my euphoria."</p>
+                    <span class="gallery-quote-icon">&rdquo;</span>
+                </div>
+            </div>
+        </section>
+    <!-- ========================================== -->
+    <!-- EXHIBITION HOURS & EVENTS -->
+    <!-- ========================================== -->
+    <section class="section schedule" id="schedule">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Exhibition Program</span>
+                <h2 class="section-title">Gallery <span class="gradient-text">Events</span></h2>
+                <p class="section-sub">Special exhibitions and experiences throughout the archive</p>
+            </div>
+
+            <div class="schedule-grid" id="scheduleGrid">
+                <!-- Schedule items rendered by JavaScript -->
+            </div>
+
+            <!-- Museum Hours Notice -->
+            <div class="museum-hours-notice">
+                <span class="hours-icon">◈</span>
+                <div class="hours-text">
+                    <strong>Exhibition Hours</strong>
+                    <span>Open Daily — 10:00 AM to 8:00 PM</span>
+                    <span class="hours-note">Extended hours on special exhibition days</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========================================== -->
+<!-- GALLERY ATTIRE GUIDE -->
+<!-- ========================================== -->
+<section class="section dresscode" id="dresscode">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Exhibition Attire</span>
+            <h2 class="section-title">Gallery <span class="gradient-text">Dress Code</span></h2>
+            <p class="section-sub">The purple palette of the archive</p>
+        </div>
+
+        <div class="dresscode-grid">
+            <div class="dresscode-card">
+                <div class="dresscode-color" style="background: #7B2FBE;"></div>
+                <h4 style="color: #7B2FBE;">Deep Purple</h4>
+                <p>Royal &amp; elegant</p>
+                <span class="dresscode-tag">Exhibit A</span>
+            </div>
+            <div class="dresscode-card">
+                <div class="dresscode-color" style="background: #9B59B6;"></div>
+                <h4 style="color: #9B59B6;">Plum</h4>
+                <p>Rich &amp; warm</p>
+                <span class="dresscode-tag">Exhibit B</span>
+            </div>
+            <div class="dresscode-card">
+                <div class="dresscode-color" style="background: #C39BD3;"></div>
+                <h4 style="color: #C39BD3;">Lavender</h4>
+                <p>Soft &amp; dreamy</p>
+                <span class="dresscode-tag">Exhibit C</span>
+            </div>
+            <div class="dresscode-card">
+                <div class="dresscode-color" style="background: #E8DAEF;"></div>
+                <h4 style="color: #6a4a7a;">Pale Lilac</h4>
+                <p>Light &amp; airy</p>
+                <span class="dresscode-tag">Exhibit D</span>
+            </div>
+            <div class="dresscode-card">
+                <div class="dresscode-color" style="background: #F5B7B1;"></div>
+                <h4 style="color: #E74C7E;">Blush Pink</h4>
+                <p>Romantic &amp; sweet</p>
+                <span class="dresscode-tag">Exhibit E</span>
+            </div>
+            <div class="dresscode-card" style="border-color: #2C3E50;">
+                <div class="dresscode-color" style="background: #2C3E50;"></div>
+                <h4 style="color: #2C3E50;">ARMY Merchandise</h4>
+                <p>Show your ARMY pride</p>
+                <span class="dresscode-tag">Exhibit F</span>
+            </div>
+        </div>
+
+        <!-- Museum Note -->
+        <div class="dresscode-note">
+            <span class="note-icon">✦</span>
+            <p>All colors welcome — inspired by the BTS × ARMY purple spectrum</p>
+        </div>
+    </div>
+</section>
+    <!-- ========================================== -->
+    <!-- WHERE THE HYPE IS - LOCATION + LIVE ACTIVITY -->
+    <!-- ========================================== -->
+    <section class="section location" id="location">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Where the HYPE Is</span>
+                <h2 class="section-title">Visit the <span class="gradient-text">Archive</span></h2>
+                <p class="section-sub">The Forever Archive — Lilac Garden Hall</p>
+            </div>
+
+            <div class="location-container">
+                <!-- Map -->
+                <div class="location-map" id="mapContainer">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509422!2d144.9537353153163!3d-37.81627997975159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d5df1f4e4f1%3A0x5045675218ce6e0!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                    <!-- Live Activity Overlay on Map -->
+                    <div class="map-live-overlay">
+                        <span class="live-dot"></span>
+                        <span class="live-text">LIVE</span>
+                        <span class="live-visitors" id="liveVisitors">1,247</span>
+                        <span class="live-label">ARMYs here now</span>
+                    </div>
+                </div>
+
+                <!-- Location Details -->
+                <div class="location-details">
+                    <div class="location-address">
+                        <i class="fas fa-location-dot"></i>
+                        <div>
+                            <h4>The Forever Archive</h4>
+                            <p>Lilac Garden Hall<br />123 Spring Lane<br />Melbourne, VIC 3000</p>
+                        </div>
+                    </div>
+                    <div class="location-time">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Exhibition Hours</h4>
+                            <p>10:00 AM &ndash; 8:00 PM Daily</p>
+                            <span class="location-note">Special events: 6:00 PM &ndash; 10:00 PM</span>
+                        </div>
+                    </div>
+                    <a href="#" target="_blank" class="btn-primary" id="directionsBtn">
+                        <i class="fas fa-directions"></i> Plan Your Visit
+                    </a>
+
+            </div>
+        </div>
+    </section>
+    <!-- ========================================== -->
+    <!-- VISITOR REGISTRY -->
+    <!-- ========================================== -->
+    <section class="section rsvp" id="rsvp">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Visitor Registry</span>
+                <h2 class="section-title">Sign the <span class="gradient-text">Guestbook</span></h2>
+                <p class="section-sub">Leave your mark in the Forever Archive</p>
+            </div>
+
+            <div class="rsvp-container">
+                <form class="rsvp-form" id="rsvpForm">
+                    <div class="rsvp-form-group">
+                        <label for="rsvpName">Your Name</label>
+                        <input type="text" id="rsvpName" placeholder="Your full name" required />
+                    </div>
+                    <div class="rsvp-form-group">
+                        <label for="rsvpEmail">Email Address</label>
+                        <input type="email" id="rsvpEmail" placeholder="your@email.com" required />
+                    </div>
+                    <div class="rsvp-form-group">
+                        <label for="rsvpGuests">Number of Visitors</label>
+                        <select id="rsvpGuests">
+                            <option value="1">1</option>
+                            <option value="2" selected>2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5+">5+</option>
+                        </select>
+                    </div>
+                    <div class="rsvp-form-group">
+                        <label for="rsvpSong">Your Favorite BTS Song</label>
+                        <input type="text" id="rsvpSong" placeholder="e.g., Euphoria" />
+                    </div>
+                    <button type="submit" class="btn-primary rsvp-submit">
+                        <i class="fas fa-pen"></i> Sign the Guestbook
+                    </button>
+                </form>
+
+                <!-- Visitor Count -->
+                <div class="visitor-count">
+                    <span class="visitor-icon">◈</span>
+                    <span class="visitor-text">Join 14,000,000+ ARMY visitors</span>
+                    <span class="visitor-sub">You are part of history</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========================================== -->
+    <!-- ARCHIVE FOOTER -->
+    <!-- ========================================== -->
+    <footer class="footer-section">
+        <div class="container">
+            <!-- Social Media Links -->
+            <div class="social-links">
+                <a href="#" target="_blank" class="social-icon" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" target="_blank" class="social-icon" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" target="_blank" class="social-icon" aria-label="TikTok">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+                <a href="#" target="_blank" class="social-icon" aria-label="YouTube">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="#" target="_blank" class="social-icon" aria-label="Twitter/X">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+            </div>
+
+            <!-- Archive Hashtags -->
+            <div class="footer-hashtags">
+                <span class="hashtag">#BTSARMY</span>
+                <span class="hashtag">#BTSxARMY</span>
+                <span class="hashtag">#ForeverArchive</span>
+                <span class="hashtag">#14YearsOfPurpleLove</span>
+                <span class="hashtag">#BTS14thAnniversary</span>
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <div class="footer-bottom">
+                <p class="footer-love">
+                    &ldquo;BTS &amp; ARMY — Forever on Display.&rdquo;
+                </p>
+                <p class="footer-copy">
+                    &copy; 2013 &mdash; Forever &bull; BTS × ARMY &bull; The Forever Archive
+                </p>
+            </div>
+        </div>
+    </footer>
+        <!-- end main-content -->
+
+        <script src="script.js"></script>
+    </body>
+    </html>
